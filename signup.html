@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/a1dbe571f5.js" crossorigin="anonymous"></script>
+    <title>a</title>
+</head>
+<body>
+    <div class="hero is-fullheight">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          
+            <div class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item" href="index.html">
+                  Startseite
+                </a>
+          
+                <div class="navbar-item has-dropdown is-hoverable">
+                  <a class="navbar-link">
+                    Produkte
+                  </a>
+          
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                      Alle
+                    </a>
+                    <a class="navbar-item">
+                      Hafen
+                    </a>
+                    <a class="navbar-item">
+                      Stadt
+                    </a>
+                    <a class="navbar-item">
+                      Schiffe
+                    </a>
+                    <a class="navbar-item">
+                      Andere
+                    </a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a class="button is-primary" href="signup.html">
+                      <strong>Registrieren</strong>
+                    </a>
+                    <a class="button is-light" href="login.html">
+                      Anmelden
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-4">
+                        <form action="" class="box" onsubmit="console.log(document.getElementById('name').value)">
+                            <div class="field">
+                                <label class="label" for="name">Name</label>
+                                <div class="control has-icons-left">
+                                    <input type="text" class="input" placeholder="Max Mustermann" id="name">
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-person"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label" for="email">Email</label>
+                                <div class="control has-icons-left">
+                                    <input type="email" class="input" placeholder="max-mustermann@beispiel.de" id="email">
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-envelope"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label" for="password">Passwort</label>
+                                <div class="control has-icons-left">
+                                    <input type="password" class="input" placeholder="Passwort" id="password">
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control has-icons-left">
+                                    <input type="password" class="input" placeholder="Passwort erneut eingeben" id="password-confirm">
+                                    <span class="icon is-small is-left">
+                                        <i class="fa fa-lock"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <button class="button is-success">Account erstellen</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="signup.js"></script>
+</html>
